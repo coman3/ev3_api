@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "EV3.Transmitter": {
+      "commandName": "Project",
+      "commandLineArgs": "localhost test"
+    }
+  }
+}

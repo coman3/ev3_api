@@ -1,0 +1,32 @@
+﻿syntax = "proto3";
+
+
+service HealthService {
+    rpc CheckConnection(HealthRequest) returns (HealthResponse);
+}
+message HealthRequest {
+  string datetime = 1;
+}
+
+// The response message containing the greetings
+message HealthResponse {
+  string serverdatetime = 1;
+  bool healthy = 2;
+}
+
+
+service BrickService {
+  // Sends a greeting
+    rpc RegisterBricks(stream NewBrickRequest) returns (stream RegisteredBrickResponse);
+}
+
+message NewBrickRequest {
+    string brickId = 1;
+}
+
+message RegisteredBrickResponse {
+    string brickId = 1;
+    string accountId = 2;
+    bool enabled = 3;
+}
+

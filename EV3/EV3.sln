@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EV3.Api", "EV3.Api\EV3.Api.csproj", "{501D91FD-70AE-4D20-9923-EA32F6D50228}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controller", "Controller", "{1EC901F4-4473-4920-85C6-C7F73279E65C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EV3.Protocol", "EV3.Protocol\EV3.Protocol.csproj", "{C8A1F25E-7BB5-4D32-BD0F-AF1C8CA05AB0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencies", "{557EB1AA-D986-4096-BC33-636F9B8EF91A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EV3.Transmitter", "EV3.Transmitter\EV3.Transmitter.csproj", "{CACF89B7-AF31-4EC2-ACB3-92E07017466C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lego.Ev3.NetCore", "..\dependencies\Lego.Ev3.NetCore\Lego.Ev3.NetCore.csproj", "{D11C74F7-48F3-42F6-8A20-F09A638A0A47}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{501D91FD-70AE-4D20-9923-EA32F6D50228}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{501D91FD-70AE-4D20-9923-EA32F6D50228}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{501D91FD-70AE-4D20-9923-EA32F6D50228}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{501D91FD-70AE-4D20-9923-EA32F6D50228}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8A1F25E-7BB5-4D32-BD0F-AF1C8CA05AB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8A1F25E-7BB5-4D32-BD0F-AF1C8CA05AB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8A1F25E-7BB5-4D32-BD0F-AF1C8CA05AB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8A1F25E-7BB5-4D32-BD0F-AF1C8CA05AB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CACF89B7-AF31-4EC2-ACB3-92E07017466C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CACF89B7-AF31-4EC2-ACB3-92E07017466C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CACF89B7-AF31-4EC2-ACB3-92E07017466C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CACF89B7-AF31-4EC2-ACB3-92E07017466C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D11C74F7-48F3-42F6-8A20-F09A638A0A47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D11C74F7-48F3-42F6-8A20-F09A638A0A47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D11C74F7-48F3-42F6-8A20-F09A638A0A47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D11C74F7-48F3-42F6-8A20-F09A638A0A47}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CACF89B7-AF31-4EC2-ACB3-92E07017466C} = {1EC901F4-4473-4920-85C6-C7F73279E65C}
+		{D11C74F7-48F3-42F6-8A20-F09A638A0A47} = {557EB1AA-D986-4096-BC33-636F9B8EF91A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {37AE1F0E-FEDB-44CF-8BB3-465397B09FA4}
+	EndGlobalSection
+EndGlobal
